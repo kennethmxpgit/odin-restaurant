@@ -1,4 +1,72 @@
-.hello {
-    color: red;
-    background: url('./icon.png');
-  }
+*{
+  margin:0;
+  padding:0;
+}
+html{
+  font-size:62.5%;
+  font-family:Helvetica, sans-serif
+}
+body{
+  /* background-color: beige; */
+  background: url('./background.jpg');
+}
+#topRow{
+  box-sizing: border-box;
+  background-color: rgb(43, 43, 43);
+  height:5vh;
+  width:100vw;
+  display:flex;
+  justify-content: center;
+}
+#mainBody{
+  box-sizing: border-box;
+  height:min-content;
+  width:100vw;
+  padding: 3% 0% 3% 0%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+#bottomRow{
+  box-sizing: border-box;
+  background-color:black;
+  height:10vh;
+  width:100vw;
+}
+#contentBox{
+  background-color: rgba(245, 245, 220, 0.945);
+  box-sizing: border-box;
+  height:100vh;
+  width:90vh;
+  max-width: 90vw;
+  border-radius:3%;
+  padding:5%;
+}
+button{
+  font-size:1.5rem;
+  height:100%;
+  width:15%;
+  color:white;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 3%;
+  border-style:solid;
+  border-bottom:none;
+}
+button:hover{
+  background-color: rgb(68, 68, 68);
+  font-weight:bolder;
+  font-size:1.7rem;
+}
+.content{
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.title{
+  font-size: 5rem;
+
+}

@@ -1,8 +1,9 @@
 **STEPS**
 
 1. Install all npms
-2. copy paste from web-template-main
-3. run with either:
+2. add .gitignore to node_modules
+3. copy paste from web-template-main
+4. run with either:
 npm run build
 npm run start
 npm run watch

@@ -1,1 +1,1 @@
-# odin-restaurant
+# webpack-template
